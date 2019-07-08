@@ -1,8 +1,8 @@
 {
-  "name": "adopt-me",
+  "name": "parcel-react-boilerplate",
   "version": "1.0.0",
-  "description": "Adopt me app.",
-  "main": "App.js",
+  "description": "Parcel React Boilerplate.",
+  "main": "index.js",
   "scripts": {
     "build": "parcel src/index.html --out-dir build",
     "format": "prettier \"src/**/*.{js,html}\" --write",
