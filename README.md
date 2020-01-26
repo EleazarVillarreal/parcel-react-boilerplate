@@ -6,4 +6,4 @@ Starter files for a simple Parcel workflow for React projects.
 
 1. `npm install`
 
-2. `npm run build`
+2. `npm start`
