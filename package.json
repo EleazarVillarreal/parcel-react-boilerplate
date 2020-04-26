@@ -5,12 +5,24 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build ./src/index.html --out-dir build",
     "format": "prettier \"src/**/*.{js,html}\" --write",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EleazarVillarreal/parcel-react-boilerplate.git"
+  },
   "author": "Eleazar Villarreal",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EleazarVillarreal/parcel-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/EleazarVillarreal/parcel-react-boilerplate#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
@@ -25,12 +37,7 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^3.0.0",
     "parcel-bundler": "^1.12.4",
-    "prettier": "^2.0.2",
-    "sass": "^1.26.3"
-  },
-  "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "prettier": "^2.0.2"
   },
   "browserslist": [
     "last 2 versions"
