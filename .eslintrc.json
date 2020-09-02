@@ -1,4 +1,9 @@
 {
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
   "extends": [
     "eslint:recommended",
     "plugin:import/errors",
@@ -7,25 +12,19 @@
     "prettier",
     "prettier/react"
   ],
-  "rules": {
-    "react/prop-types": 0,
-    "no-console": 1,
-    "react-hooks/rules-of-hooks": 2,
-    "react-hooks/exhaustive-deps": 1
-  },
-  "plugins": ["react", "import", "jsx-a11y", "react-hooks"],
-  "parser": "babel-eslint",
+  "plugins": ["import", "jsx-a11y", "react", "react-hooks"],
   "parserOptions": {
     "ecmaVersion": 2020,
-    "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
-    }
+    },
+    "sourceType": "module"
   },
-  "env": {
-    "es6": true,
-    "browser": true,
-    "node": true
+  "rules": {
+    "no-console": 1,
+    "react/prop-types": 0,
+    "react-hooks/rules-of-hooks": 2,
+    "react-hooks/exhaustive-deps": 1
   },
   "settings": {
     "react": {
