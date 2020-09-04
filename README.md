@@ -1,6 +1,6 @@
 # parcel-react-boilerplate
 
-Starter files for a simple Parcel workflow for React projects.
+Starter files for a simple Parcel workflow for React projects using Typescript.
 
 ## Development Instructions:
 
