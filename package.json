@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/EleazarVillarreal/parcel-react-boilerplate#readme",
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   },
